@@ -1,0 +1,1 @@
+Creating a google homepage clone in HTML and CSS as part of the odin projects curriculum!
