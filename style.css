@@ -1,0 +1,93 @@
+#header {
+    margin-right: 20px;
+    margin-top: 20px;
+    opacity: 0.75;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+#about, #store {
+    float: left;
+    padding-left: 15px;
+}
+
+#gmail,#images,#gapps,#notifications,#profile {
+    float: right;
+    padding-left: 15px;
+}
+
+#logo {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-47%,-50%);
+}
+
+#textbox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 500px;
+    border:1px solid #eaeaea;
+    outline:none;
+    box-shadow: 0px 1px 10px 0px grey;
+}
+
+#textbox:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+#button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border-color: 1px solid #f2f2f2;
+    color: #757575;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;    
+    border-radius: 2px;
+    font-family: arial, sans-serif;
+}
+#button:hover {
+    border-color: 2px solid #c6c6c6;
+    color: black;
+}
+
+#footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: #666;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    padding: 13px;
+    border-top: 1px solid #c6c6c6;
+    width: 100%;
+}
+
+#business, #advertising {
+    float: left;
+    padding-left: 20px;
+}
+
+#privacy, #terms, #settings {
+    float: right;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+a {
+    color: black;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
